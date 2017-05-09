@@ -1,0 +1,6 @@
+framework module SMZDMLiveLib {
+  umbrella header "SMZDMLiveLib-umbrella.h"
+
+  export *
+  module * { export * }
+}

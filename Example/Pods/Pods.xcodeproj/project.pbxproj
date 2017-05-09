@@ -1,0 +1,747 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D36E8052A749E16AC469DF25957B4B4 /* libiconv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CBD30C2B9B67FF753DF4985890D6F6D /* libiconv.framework */; };
+		19F838746AD03B6DA383E0C9C77A3B4A /* bstdc++.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE1B2E30B5578072B09B47EB10F6AE44 /* bstdc++.framework */; };
+		1FC0F725D9A9D17D9F7AEF7FD919C790 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9A04981D99DC4D97C01B83E2FDFDA71 /* SystemConfiguration.framework */; };
+		2957A7024D56B14359C537455337A589 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 41A84D0E2F8BE8D9E92CA10E1B89016D /* CoreTelephony.framework */; };
+		2E616E74462ED345FACF8FE7A31580A2 /* Pods-SMZDMLiveLib_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B61A4661C1258257F33D87D12555C32 /* Pods-SMZDMLiveLib_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32ED902D869FC67538EC34D99FA8EE99 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4547C8B221E45D437075A102808EF2F9 /* UIKit.framework */; };
+		39B3DD2BE7425B44782FA14D4E4F9590 /* VideoToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3261E987C2F68522A709F37DDC2AE580 /* VideoToolbox.framework */; };
+		54D1FC65BC524A6A669A5A072779F0E7 /* libz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E25F32290281B7014A8E61D3305A0131 /* libz.framework */; };
+		583A6FABFB9729589ED4C159CF4FC3C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D6A2088B54771B4309B8379EE42686 /* Foundation.framework */; };
+		70ED2BDEFD3E139221844268CB1963BE /* SMZDMLiveLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E422EC26AEC0057AC203BFAB80D530C /* SMZDMLiveLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C9ACF7193A42370A7CCEE5D4F2898AA /* Pods-SMZDMLiveLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 49469E142E799BD5471963F07B58C992 /* Pods-SMZDMLiveLib_Tests-dummy.m */; };
+		8511F267CDF6B59B8CBF9EF9E378260C /* Pods-SMZDMLiveLib_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CB01504D71C5FC7D541C2EF9C189079 /* Pods-SMZDMLiveLib_Example-dummy.m */; };
+		85FD9CA9547554AE8427A1B1C26298A9 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D28364495EEB64A7878545C70C4E4414 /* CoreGraphics.framework */; };
+		88932E0A860A1F1328B8C932FB85DC5B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D6A2088B54771B4309B8379EE42686 /* Foundation.framework */; };
+		C3E838F6FA225BD3B76F9C505DA82928 /* libresolv.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A84E964C4803E6B07C2A9714B0827D9C /* libresolv.framework */; };
+		C5F0AF195B5C6A81388446DEF865DB5E /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAC6C45379BED1B94DC00B1DC49FBBA0 /* AVFoundation.framework */; };
+		CC5225C34BF97D8F0F4DD759654C94F9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5885CA20DE0840A9078E0ADC180C5D4E /* CoreMedia.framework */; };
+		D0413C6F4861163B5AAAC1DE4EEE67A7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05D6A2088B54771B4309B8379EE42686 /* Foundation.framework */; };
+		D4A7D426629EF0935EE0651B7FF8828A /* SMZDMLiveLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CDDCC383C7676C693D353F6D008F2E8 /* SMZDMLiveLib-dummy.m */; };
+		F5B9C03A7F6323C702E512CFE9E72602 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = E529C6FABB95D327599114E4CE9125E1 /* ReplaceMe.m */; };
+		FD5612C7724D2BE46FD22ABDC82B8A90 /* Pods-SMZDMLiveLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7C8C59833103A08641707BA039AEA2E6 /* Pods-SMZDMLiveLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F20BBFD641397F0861E1432063A6D23 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F0DC7B4A74E6D4FFECCB070701E1B00;
+			remoteInfo = SMZDMLiveLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05D6A2088B54771B4309B8379EE42686 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		0CBD30C2B9B67FF753DF4985890D6F6D /* libiconv.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libiconv.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/libiconv.framework; sourceTree = DEVELOPER_DIR; };
+		157F05348B83B4CF666935E47EB75754 /* Pods-SMZDMLiveLib_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMZDMLiveLib_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1CDDCC383C7676C693D353F6D008F2E8 /* SMZDMLiveLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SMZDMLiveLib-dummy.m"; sourceTree = "<group>"; };
+		1E422EC26AEC0057AC203BFAB80D530C /* SMZDMLiveLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMZDMLiveLib-umbrella.h"; sourceTree = "<group>"; };
+		2C292DB149493DD3F0AD7C165DB72A04 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3097D6312F5C817FDF9608009E6B0D92 /* Pods-SMZDMLiveLib_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMZDMLiveLib_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3261E987C2F68522A709F37DDC2AE580 /* VideoToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VideoToolbox.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/VideoToolbox.framework; sourceTree = DEVELOPER_DIR; };
+		399040A0E1B02B0E496CDA079650F191 /* Pods-SMZDMLiveLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SMZDMLiveLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3C8FA085A68C009D909AD2709490B25F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41A84D0E2F8BE8D9E92CA10E1B89016D /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreTelephony.framework; sourceTree = DEVELOPER_DIR; };
+		4547C8B221E45D437075A102808EF2F9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		49469E142E799BD5471963F07B58C992 /* Pods-SMZDMLiveLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMZDMLiveLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		52B84332F66DCE317CBCB5EEAFB2453A /* Pods-SMZDMLiveLib_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SMZDMLiveLib_Example.modulemap"; sourceTree = "<group>"; };
+		5885CA20DE0840A9078E0ADC180C5D4E /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreMedia.framework; sourceTree = DEVELOPER_DIR; };
+		6145EE30362F5F7D89CEB46A9637E875 /* Pods-SMZDMLiveLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMZDMLiveLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		6B61A4661C1258257F33D87D12555C32 /* Pods-SMZDMLiveLib_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMZDMLiveLib_Example-umbrella.h"; sourceTree = "<group>"; };
+		6C63408AE5FC68DC0CB0EC550A06AB20 /* Pods-SMZDMLiveLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMZDMLiveLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		766BEA8EE8C9A14DA440F23A4795A1AF /* Pods-SMZDMLiveLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-SMZDMLiveLib_Tests.modulemap"; sourceTree = "<group>"; };
+		7C8C59833103A08641707BA039AEA2E6 /* Pods-SMZDMLiveLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SMZDMLiveLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		8138AFB88E729927C8A03147BC3A7779 /* Pods-SMZDMLiveLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMZDMLiveLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		8CB01504D71C5FC7D541C2EF9C189079 /* Pods-SMZDMLiveLib_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SMZDMLiveLib_Example-dummy.m"; sourceTree = "<group>"; };
+		93853EB1C46A6EFA1E1EF7DC6A1AC6FD /* SMZDMLiveLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SMZDMLiveLib.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95F1973E677D0736286BC254AB3F93B1 /* Pods-SMZDMLiveLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMZDMLiveLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		9BEAB12D78D16E01BF56B7E02E0A4607 /* SMZDMLiveLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = SMZDMLiveLib.modulemap; sourceTree = "<group>"; };
+		A84E964C4803E6B07C2A9714B0827D9C /* libresolv.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libresolv.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/libresolv.framework; sourceTree = DEVELOPER_DIR; };
+		AE1B2E30B5578072B09B47EB10F6AE44 /* bstdc++.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = "bstdc++.framework"; path = "Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/bstdc++.framework"; sourceTree = DEVELOPER_DIR; };
+		B3499293CABE027704AE2D8F964C773F /* Pods_SMZDMLiveLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SMZDMLiveLib_Tests.framework; path = "Pods-SMZDMLiveLib_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4F056F410E0C979F35DF374DD34EC6B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC00FBD439B3545E6BBFF993305CB86E /* SMZDMLiveLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SMZDMLiveLib.framework; path = SMZDMLiveLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BE93DC1AE2F876AB1639EE6C0F21E970 /* Pods-SMZDMLiveLib_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMZDMLiveLib_Example-resources.sh"; sourceTree = "<group>"; };
+		C527B04D820CE2EE624A2F6F291363CD /* Pods-SMZDMLiveLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMZDMLiveLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CC7C37BC1890103001D4CEA8EF9919DF /* Pods-SMZDMLiveLib_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SMZDMLiveLib_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		D0D6D46DF211E2804F8311BB5D742467 /* Pods_SMZDMLiveLib_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_SMZDMLiveLib_Example.framework; path = "Pods-SMZDMLiveLib_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D28364495EEB64A7878545C70C4E4414 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		D71FA90C89F7D7653AC179A1280EA385 /* SMZDMLiveLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SMZDMLiveLib-prefix.pch"; sourceTree = "<group>"; };
+		E25F32290281B7014A8E61D3305A0131 /* libz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = libz.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/libz.framework; sourceTree = DEVELOPER_DIR; };
+		E529C6FABB95D327599114E4CE9125E1 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		E60F29C4CC3728DDE029DD2232F8EB5E /* Pods-SMZDMLiveLib_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SMZDMLiveLib_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E9A04981D99DC4D97C01B83E2FDFDA71 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
+		EA8D7C12E85BDD9AE3426131346A0108 /* Pods-SMZDMLiveLib_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SMZDMLiveLib_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FAC6C45379BED1B94DC00B1DC49FBBA0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		059013B25E8E31071BAA7799BA459BAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0413C6F4861163B5AAAC1DE4EEE67A7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		11CD19EBEE41C2DC5AAE17C6EB925931 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C5F0AF195B5C6A81388446DEF865DB5E /* AVFoundation.framework in Frameworks */,
+				19F838746AD03B6DA383E0C9C77A3B4A /* bstdc++.framework in Frameworks */,
+				85FD9CA9547554AE8427A1B1C26298A9 /* CoreGraphics.framework in Frameworks */,
+				CC5225C34BF97D8F0F4DD759654C94F9 /* CoreMedia.framework in Frameworks */,
+				2957A7024D56B14359C537455337A589 /* CoreTelephony.framework in Frameworks */,
+				88932E0A860A1F1328B8C932FB85DC5B /* Foundation.framework in Frameworks */,
+				0D36E8052A749E16AC469DF25957B4B4 /* libiconv.framework in Frameworks */,
+				C3E838F6FA225BD3B76F9C505DA82928 /* libresolv.framework in Frameworks */,
+				54D1FC65BC524A6A669A5A072779F0E7 /* libz.framework in Frameworks */,
+				1FC0F725D9A9D17D9F7AEF7FD919C790 /* SystemConfiguration.framework in Frameworks */,
+				32ED902D869FC67538EC34D99FA8EE99 /* UIKit.framework in Frameworks */,
+				39B3DD2BE7425B44782FA14D4E4F9590 /* VideoToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D08F5EEEEAC31253263EA28FD7C9963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				583A6FABFB9729589ED4C159CF4FC3C4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1154E12C109B6F23000F8E29DACC2F30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0D6D46DF211E2804F8311BB5D742467 /* Pods_SMZDMLiveLib_Example.framework */,
+				B3499293CABE027704AE2D8F964C773F /* Pods_SMZDMLiveLib_Tests.framework */,
+				BC00FBD439B3545E6BBFF993305CB86E /* SMZDMLiveLib.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		116906AB88E39FF01B7F63C5E6121CEB /* SMZDMLiveLib */ = {
+			isa = PBXGroup;
+			children = (
+				FA6071064C6A919E934EB69549522CC8 /* Classes */,
+			);
+			name = SMZDMLiveLib;
+			path = SMZDMLiveLib;
+			sourceTree = "<group>";
+		};
+		4F632BDE3C5191AF29B0318D35B9670E /* Pods-SMZDMLiveLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				3C8FA085A68C009D909AD2709490B25F /* Info.plist */,
+				766BEA8EE8C9A14DA440F23A4795A1AF /* Pods-SMZDMLiveLib_Tests.modulemap */,
+				399040A0E1B02B0E496CDA079650F191 /* Pods-SMZDMLiveLib_Tests-acknowledgements.markdown */,
+				6C63408AE5FC68DC0CB0EC550A06AB20 /* Pods-SMZDMLiveLib_Tests-acknowledgements.plist */,
+				49469E142E799BD5471963F07B58C992 /* Pods-SMZDMLiveLib_Tests-dummy.m */,
+				8138AFB88E729927C8A03147BC3A7779 /* Pods-SMZDMLiveLib_Tests-frameworks.sh */,
+				6145EE30362F5F7D89CEB46A9637E875 /* Pods-SMZDMLiveLib_Tests-resources.sh */,
+				7C8C59833103A08641707BA039AEA2E6 /* Pods-SMZDMLiveLib_Tests-umbrella.h */,
+				95F1973E677D0736286BC254AB3F93B1 /* Pods-SMZDMLiveLib_Tests.debug.xcconfig */,
+				C527B04D820CE2EE624A2F6F291363CD /* Pods-SMZDMLiveLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-SMZDMLiveLib_Tests";
+			path = "Target Support Files/Pods-SMZDMLiveLib_Tests";
+			sourceTree = "<group>";
+		};
+		59E852C6FC1897FA96F93EF40C70A43E /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F58149B653E709ACE283CB6732BC7D86 /* SMZDMLiveLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		6178BBC1EADD5A3236E3DF65DF470E0D /* Pods-SMZDMLiveLib_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2C292DB149493DD3F0AD7C165DB72A04 /* Info.plist */,
+				52B84332F66DCE317CBCB5EEAFB2453A /* Pods-SMZDMLiveLib_Example.modulemap */,
+				3097D6312F5C817FDF9608009E6B0D92 /* Pods-SMZDMLiveLib_Example-acknowledgements.markdown */,
+				E60F29C4CC3728DDE029DD2232F8EB5E /* Pods-SMZDMLiveLib_Example-acknowledgements.plist */,
+				8CB01504D71C5FC7D541C2EF9C189079 /* Pods-SMZDMLiveLib_Example-dummy.m */,
+				EA8D7C12E85BDD9AE3426131346A0108 /* Pods-SMZDMLiveLib_Example-frameworks.sh */,
+				BE93DC1AE2F876AB1639EE6C0F21E970 /* Pods-SMZDMLiveLib_Example-resources.sh */,
+				6B61A4661C1258257F33D87D12555C32 /* Pods-SMZDMLiveLib_Example-umbrella.h */,
+				CC7C37BC1890103001D4CEA8EF9919DF /* Pods-SMZDMLiveLib_Example.debug.xcconfig */,
+				157F05348B83B4CF666935E47EB75754 /* Pods-SMZDMLiveLib_Example.release.xcconfig */,
+			);
+			name = "Pods-SMZDMLiveLib_Example";
+			path = "Target Support Files/Pods-SMZDMLiveLib_Example";
+			sourceTree = "<group>";
+		};
+		6C61B79F4876C7F3FDBF4D19723DF865 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D3CFC67F90C7282AAD6E32C2BE1DD7EE /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				59E852C6FC1897FA96F93EF40C70A43E /* Development Pods */,
+				6C61B79F4876C7F3FDBF4D19723DF865 /* Frameworks */,
+				1154E12C109B6F23000F8E29DACC2F30 /* Products */,
+				EEE4E429B46A25DBE23BCECBE189D785 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A2CE00E80188AC02B4FCF595B5BCAFE9 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4F056F410E0C979F35DF374DD34EC6B /* Info.plist */,
+				9BEAB12D78D16E01BF56B7E02E0A4607 /* SMZDMLiveLib.modulemap */,
+				93853EB1C46A6EFA1E1EF7DC6A1AC6FD /* SMZDMLiveLib.xcconfig */,
+				1CDDCC383C7676C693D353F6D008F2E8 /* SMZDMLiveLib-dummy.m */,
+				D71FA90C89F7D7653AC179A1280EA385 /* SMZDMLiveLib-prefix.pch */,
+				1E422EC26AEC0057AC203BFAB80D530C /* SMZDMLiveLib-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SMZDMLiveLib";
+			sourceTree = "<group>";
+		};
+		D3CFC67F90C7282AAD6E32C2BE1DD7EE /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FAC6C45379BED1B94DC00B1DC49FBBA0 /* AVFoundation.framework */,
+				AE1B2E30B5578072B09B47EB10F6AE44 /* bstdc++.framework */,
+				D28364495EEB64A7878545C70C4E4414 /* CoreGraphics.framework */,
+				5885CA20DE0840A9078E0ADC180C5D4E /* CoreMedia.framework */,
+				41A84D0E2F8BE8D9E92CA10E1B89016D /* CoreTelephony.framework */,
+				05D6A2088B54771B4309B8379EE42686 /* Foundation.framework */,
+				0CBD30C2B9B67FF753DF4985890D6F6D /* libiconv.framework */,
+				A84E964C4803E6B07C2A9714B0827D9C /* libresolv.framework */,
+				E25F32290281B7014A8E61D3305A0131 /* libz.framework */,
+				E9A04981D99DC4D97C01B83E2FDFDA71 /* SystemConfiguration.framework */,
+				4547C8B221E45D437075A102808EF2F9 /* UIKit.framework */,
+				3261E987C2F68522A709F37DDC2AE580 /* VideoToolbox.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EEE4E429B46A25DBE23BCECBE189D785 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6178BBC1EADD5A3236E3DF65DF470E0D /* Pods-SMZDMLiveLib_Example */,
+				4F632BDE3C5191AF29B0318D35B9670E /* Pods-SMZDMLiveLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F58149B653E709ACE283CB6732BC7D86 /* SMZDMLiveLib */ = {
+			isa = PBXGroup;
+			children = (
+				116906AB88E39FF01B7F63C5E6121CEB /* SMZDMLiveLib */,
+				A2CE00E80188AC02B4FCF595B5BCAFE9 /* Support Files */,
+			);
+			name = SMZDMLiveLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FA6071064C6A919E934EB69549522CC8 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E529C6FABB95D327599114E4CE9125E1 /* ReplaceMe.m */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		091E6EE8EC4840BBA6F84898DCB2EAB5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70ED2BDEFD3E139221844268CB1963BE /* SMZDMLiveLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		47772D340F7150129CE49C8A52E98F07 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5612C7724D2BE46FD22ABDC82B8A90 /* Pods-SMZDMLiveLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71F14FF711A9B6657AA4AA0C7D1AD966 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E616E74462ED345FACF8FE7A31580A2 /* Pods-SMZDMLiveLib_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2F0DC7B4A74E6D4FFECCB070701E1B00 /* SMZDMLiveLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4AEFE08F1EDF81A67BC2104527FB8F02 /* Build configuration list for PBXNativeTarget "SMZDMLiveLib" */;
+			buildPhases = (
+				0F1861EA6DD675DCAF4231C6903CDF81 /* Sources */,
+				11CD19EBEE41C2DC5AAE17C6EB925931 /* Frameworks */,
+				091E6EE8EC4840BBA6F84898DCB2EAB5 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SMZDMLiveLib;
+			productName = SMZDMLiveLib;
+			productReference = BC00FBD439B3545E6BBFF993305CB86E /* SMZDMLiveLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		929F77607CE51448F4D1A5FFCACA89BE /* Pods-SMZDMLiveLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 739957581F051C8CCB0B1951E5A81563 /* Build configuration list for PBXNativeTarget "Pods-SMZDMLiveLib_Tests" */;
+			buildPhases = (
+				64739026E1619C9AD4FDE4F5899A6F9B /* Sources */,
+				059013B25E8E31071BAA7799BA459BAA /* Frameworks */,
+				47772D340F7150129CE49C8A52E98F07 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SMZDMLiveLib_Tests";
+			productName = "Pods-SMZDMLiveLib_Tests";
+			productReference = B3499293CABE027704AE2D8F964C773F /* Pods_SMZDMLiveLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		AFF3C5F18863E3D737129E2F59DF342A /* Pods-SMZDMLiveLib_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DF3C5DD4914F0599712878496D7D877 /* Build configuration list for PBXNativeTarget "Pods-SMZDMLiveLib_Example" */;
+			buildPhases = (
+				F7078BA24DA373539C4321B78422F6E1 /* Sources */,
+				9D08F5EEEEAC31253263EA28FD7C9963 /* Frameworks */,
+				71F14FF711A9B6657AA4AA0C7D1AD966 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				858812B33BF166AF3CCFFD62532657B0 /* PBXTargetDependency */,
+			);
+			name = "Pods-SMZDMLiveLib_Example";
+			productName = "Pods-SMZDMLiveLib_Example";
+			productReference = D0D6D46DF211E2804F8311BB5D742467 /* Pods_SMZDMLiveLib_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 1154E12C109B6F23000F8E29DACC2F30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFF3C5F18863E3D737129E2F59DF342A /* Pods-SMZDMLiveLib_Example */,
+				929F77607CE51448F4D1A5FFCACA89BE /* Pods-SMZDMLiveLib_Tests */,
+				2F0DC7B4A74E6D4FFECCB070701E1B00 /* SMZDMLiveLib */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0F1861EA6DD675DCAF4231C6903CDF81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5B9C03A7F6323C702E512CFE9E72602 /* ReplaceMe.m in Sources */,
+				D4A7D426629EF0935EE0651B7FF8828A /* SMZDMLiveLib-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		64739026E1619C9AD4FDE4F5899A6F9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C9ACF7193A42370A7CCEE5D4F2898AA /* Pods-SMZDMLiveLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F7078BA24DA373539C4321B78422F6E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8511F267CDF6B59B8CBF9EF9E378260C /* Pods-SMZDMLiveLib_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		858812B33BF166AF3CCFFD62532657B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SMZDMLiveLib;
+			target = 2F0DC7B4A74E6D4FFECCB070701E1B00 /* SMZDMLiveLib */;
+			targetProxy = 3F20BBFD641397F0861E1432063A6D23 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0EC02A209C21BE8D472C850C5D83A50E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC7C37BC1890103001D4CEA8EF9919DF /* Pods-SMZDMLiveLib_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SMZDMLiveLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMZDMLiveLib_Example/Pods-SMZDMLiveLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SMZDMLiveLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		2E9A77564CA41DE64EF601DB4FF27128 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95F1973E677D0736286BC254AB3F93B1 /* Pods-SMZDMLiveLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SMZDMLiveLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMZDMLiveLib_Tests/Pods-SMZDMLiveLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SMZDMLiveLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6064481FA7B9E1E453E7089918920862 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93853EB1C46A6EFA1E1EF7DC6A1AC6FD /* SMZDMLiveLib.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SMZDMLiveLib/SMZDMLiveLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SMZDMLiveLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SMZDMLiveLib/SMZDMLiveLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SMZDMLiveLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		667024A3737C0DFEB8AC1486EEE2B816 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 157F05348B83B4CF666935E47EB75754 /* Pods-SMZDMLiveLib_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SMZDMLiveLib_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMZDMLiveLib_Example/Pods-SMZDMLiveLib_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SMZDMLiveLib_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C74BC7A7FA2ACEF66F06B3E86AA6666 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93853EB1C46A6EFA1E1EF7DC6A1AC6FD /* SMZDMLiveLib.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SMZDMLiveLib/SMZDMLiveLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SMZDMLiveLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SMZDMLiveLib/SMZDMLiveLib.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SMZDMLiveLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CF4BC74E1F5F95082F25D34AA9D042FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C527B04D820CE2EE624A2F6F291363CD /* Pods-SMZDMLiveLib_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SMZDMLiveLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SMZDMLiveLib_Tests/Pods-SMZDMLiveLib_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SMZDMLiveLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DF3C5DD4914F0599712878496D7D877 /* Build configuration list for PBXNativeTarget "Pods-SMZDMLiveLib_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0EC02A209C21BE8D472C850C5D83A50E /* Debug */,
+				667024A3737C0DFEB8AC1486EEE2B816 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4AEFE08F1EDF81A67BC2104527FB8F02 /* Build configuration list for PBXNativeTarget "SMZDMLiveLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6064481FA7B9E1E453E7089918920862 /* Debug */,
+				8C74BC7A7FA2ACEF66F06B3E86AA6666 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		739957581F051C8CCB0B1951E5A81563 /* Build configuration list for PBXNativeTarget "Pods-SMZDMLiveLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2E9A77564CA41DE64EF601DB4FF27128 /* Debug */,
+				CF4BC74E1F5F95082F25D34AA9D042FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
